@@ -1,148 +1,169 @@
 <!DOCTYPE html>
 <html lang="es-PE">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fisiorol · Centro de Fisioterapia en Magdalena del Mar</title>
-<meta name="description" content="Descarga muscular, botas de compresión, ondas de choque y terapia a domicilio en Lima. Reserva por WhatsApp y paga con Yape.">
-<link rel="icon" href="assets/favicon.png">
-<meta property="og:title" content="Fisiorol · Centro de Fisioterapia">
-<meta property="og:description" content="Tu bienestar, en buenas manos. Reserva por WhatsApp y paga con Yape.">
-<meta property="og:image" content="assets/logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fisiorol · Centro de Fisioterapia en Magdalena del Mar</title>
+  <meta name="description"
+    content="Descarga muscular, botas de compresión, ondas de choque y terapia a domicilio en Lima. Reserva por WhatsApp y paga con Yape.">
+  <link rel="icon" href="assets/favicon.png">
+  <meta property="og:title" content="Fisiorol · Centro de Fisioterapia">
+  <meta property="og:description" content="Tu bienestar, en buenas manos. Reserva por WhatsApp y paga con Yape.">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-<header>
-  <div class="wrap">
-    <a href="#inicio" aria-label="Fisiorol, inicio"><img src="assets/logo.png" alt="Fisiorol, centro de fisioterapia"></a>
-    <nav>
-      <a href="#servicios">Servicios</a>
-      <a href="#pago">Cómo pagar</a>
-      <a href="#reservar">Horarios</a>
-      <a class="btn sm" data-wa="Hola Fisiorol, quiero hacer una consulta." href="#">WhatsApp</a>
-    </nav>
-  </div>
-</header>
-
-<main id="inicio">
-<div class="hero">
-  <div class="wrap">
-    <div>
-      <h1>Tu bienestar, en buenas manos</h1>
-      <p class="lead">Fisioterapia y recuperación deportiva en Magdalena del Mar, con atención personalizada de Diana Roldán, licenciada en Terapia Física y Rehabilitación. También vamos a tu casa.</p>
-      <div class="acciones">
-        <a class="btn" href="#reservar">Reservar una sesión</a>
-        <a class="btn sec" href="#servicios">Ver servicios y precios</a>
-      </div>
-      <p class="dato">Reserva desde el día siguiente · ¿La necesitas hoy? Consúltanos por WhatsApp</p>
+  <header>
+    <div class="wrap">
+      <a href="#inicio" aria-label="Fisiorol, inicio"><img src="assets/logo.png"
+          alt="Fisiorol, centro de fisioterapia"></a>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#pago">Cómo pagar</a>
+        <a href="#reservar">Horarios</a>
+        <a class="btn sm" data-wa="Hola Fisiorol, quiero hacer una consulta." href="#">WhatsApp</a>
+      </nav>
     </div>
-    <img class="logo" src="assets/logo.png" alt="Logo de Fisiorol: tu bienestar, en buenas manos">
-  </div>
-</div>
+  </header>
 
-<section id="servicios">
-  <div class="wrap">
-    <h2>Servicios y precios</h2>
-    <div class="servicios" id="lista-servicios"></div>
-    <p class="nota">El precio de las sesiones a domicilio varía según el distrito. Cada tratamiento se define tras una evaluación profesional.</p>
-    <div class="aparatos">
-      <h3>Aparatología que usamos</h3>
-      <ul>
-        <li>Ultrasonido</li><li>TENS</li><li>Magnetoterapia</li>
-        <li>Terapia combinada</li><li>Tecarterapia</li>
-        <li>Acupuntura y reflexología podal</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="pasos" id="pago">
-  <div class="wrap">
-    <h2>Reserva y paga en tres pasos</h2>
-    <ol>
-      <li><strong>Elige tu servicio y horario</strong><span>Usa el formulario de abajo (desde el día siguiente) o escríbenos por WhatsApp para citas el mismo día.</span></li>
-      <li><strong>Paga con Yape</strong><span>El pago se realiza por adelantado al número de Fisiorol.</span></li>
-      <li><strong>Envía tu constancia</strong><span>Mándanos la captura del pago por WhatsApp y te confirmamos tu cita.</span></li>
-    </ol>
-    <div class="yape">
-      <div>
-        <small>Yapea a Fisiorol</small>
-        <span class="num" id="num-yape">913 515 980</span>
-      </div>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <button class="btn sec" id="copiar" type="button">Copiar número</button>
-        <a class="btn" data-wa="Hola Fisiorol, ya realicé el pago por Yape. Te envío la constancia para confirmar mi cita." href="#">Enviar constancia</a>
+  <main id="inicio">
+    <div class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Tu bienestar, en buenas manos</h1>
+          <p class="lead">Fisioterapia y recuperación deportiva en Magdalena del Mar, con atención personalizada de
+            Diana Roldán, licenciada en Terapia Física y Rehabilitación. También vamos a tu casa.</p>
+          <div class="acciones">
+            <a class="btn" href="#reservar">Reservar una sesión</a>
+            <a class="btn sec" href="#servicios">Ver servicios y precios</a>
+          </div>
+          <p class="dato">Reservas con anticipación (desde el día siguiente) · Separa tu cita con el 50% por Yape</p>
+        </div>
+        <img class="logo" src="assets/logo.png" alt="Logo de Fisiorol: tu bienestar, en buenas manos">
       </div>
     </div>
-  </div>
-</section>
 
-<section id="reservar">
-  <div class="wrap reserva">
-    <div>
-      <h2>Reserva tu sesión</h2>
-      <form id="form-reserva" novalidate>
-        <label>Nombre
-          <input id="nombre" autocomplete="name" placeholder="Tu nombre">
-        </label>
-        <label>Servicio
-          <select id="servicio"></select>
-        </label>
-        <label>Fecha
-          <input type="date" id="fecha">
-        </label>
-        <label>Hora
-          <select id="hora"><option value="">Elige una fecha primero</option></select>
-        </label>
-        <label>Modalidad
-          <select id="modalidad">
-            <option>En el centro (Magdalena del Mar)</option>
-            <option>A domicilio</option>
-          </select>
-        </label>
-        <p class="aviso" id="aviso" role="status"></p>
-        <button class="btn" type="submit">Reservar por WhatsApp</button>
-      </form>
-      <div class="hoy">
-        <strong>¿La necesitas para hoy o tienes una duda?</strong>
-        <p>Las citas del mismo día se coordinan directo con nosotros, según disponibilidad.</p>
-        <div class="hoy-btns">
-          <a class="btn sec sm" data-wa="Hola Fisiorol, quiero consultar si hay cupo para una cita el día de hoy." href="#">Cita para hoy</a>
-          <a class="btn sec sm" data-wa="Hola Fisiorol, quiero hacer una consulta sobre sus servicios." href="#">Hacer una consulta</a>
+    <section id="servicios">
+      <div class="wrap">
+        <h2>Servicios y precios</h2>
+        <div class="servicios" id="lista-servicios"></div>
+        <p class="nota">El precio de las sesiones a domicilio varía según el distrito. Cada tratamiento se define tras
+          una evaluación profesional.</p>
+        <div class="aparatos">
+          <h3>Aparatología que usamos</h3>
+          <ul>
+            <li>Ultrasonido</li>
+            <li>TENS</li>
+            <li>Magnetoterapia</li>
+            <li>Terapia combinada</li>
+            <li>Tecarterapia</li>
+            <li>Acupuntura y reflexología podal</li>
+          </ul>
         </div>
       </div>
-    </div>
-    <div class="horarios">
-      <h2>Horarios de atención</h2>
-      <dl>
-        <dt>Lunes a viernes</dt>
-        <dd>Mañana: 9:00, 10:00, 11:00 y 12:00<br>Tarde: 2:00, 3:00, 4:00, 5:00, 6:00 y 7:00 pm</dd>
-        <dt>Sábados</dt>
-        <dd>Mañana: 9:00, 10:00, 11:00 y 12:00<br>Tarde: 2:00, 3:00, 4:00 y 5:00 pm</dd>
-        <dt>Domingos (solo terapias a domicilio)</dt>
-        <dd>8:00, 9:00, 10:00, 11:00 am y 12:00 pm</dd>
-      </dl>
-      <div class="reglas">
-        Previa cita, desde el día siguiente. Para una cita el mismo día, consulta disponibilidad por WhatsApp. El pago se realiza por adelantado y las reprogramaciones se piden con anticipación.
+    </section>
+
+    <section class="pasos" id="pago">
+      <div class="wrap">
+        <h2>Reserva y paga en tres pasos</h2>
+        <ol>
+          <li><strong>Elige tu servicio y horario</strong><span>Usa el formulario de abajo (desde el día siguiente) o
+              escríbenos por WhatsApp para citas el mismo día.</span></li>
+          <li><strong>Separa con el 50%</strong><span>Yapea la mitad del monto antes de la sesión. La otra mitad se paga
+              al finalizar la terapia.</span></li>
+          <li><strong>Envía tu constancia</strong><span>Mándanos la captura del pago por WhatsApp y te confirmamos tu
+              cita.</span></li>
+        </ol>
+        <div class="yape">
+          <div>
+            <small>Yape del 50% para separar tu cita</small>
+            <span class="num" id="num-yape">913 515 980</span>
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn sec" id="copiar" type="button">Copiar número</button>
+            <a class="btn"
+              data-wa="Hola Fisiorol, ya realicé el Yape del 50% para separar mi cita. Te envío la constancia."
+              href="#">Enviar constancia</a>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <section id="reservar">
+      <div class="wrap reserva">
+        <div>
+          <h2>Reserva tu sesión</h2>
+          <form id="form-reserva" novalidate>
+            <label>Nombre
+              <input id="nombre" autocomplete="name" placeholder="Tu nombre">
+            </label>
+            <label>Servicio
+              <select id="servicio"></select>
+            </label>
+            <label>Fecha
+              <input type="date" id="fecha">
+            </label>
+            <label>Hora
+              <select id="hora">
+                <option value="">Elige una fecha primero</option>
+              </select>
+            </label>
+            <label>Modalidad
+              <select id="modalidad">
+                <option>En el centro (Magdalena del Mar)</option>
+                <option>A domicilio</option>
+              </select>
+            </label>
+            <p class="aviso" id="aviso" role="status"></p>
+            <button class="btn" type="submit">Reservar por WhatsApp</button>
+          </form>
+          <div class="hoy">
+            <strong>¿Tienes una duda antes de reservar?</strong>
+            <p>Escríbenos y te respondemos por WhatsApp. No se programan citas para el mismo día.</p>
+            <div class="hoy-btns">
+              <a class="btn sec sm" data-wa="Hola Fisiorol, quiero hacer una consulta sobre sus servicios."
+                href="#">Hacer una consulta</a>
+            </div>
+          </div>
+        </div>
+        <div class="horarios">
+          <h2>Horarios de atención</h2>
+          <dl>
+            <dt>Lunes a viernes</dt>
+            <dd>Mañana: 9:00, 10:00, 11:00 y 12:00<br>Tarde: 2:00, 3:00, 4:00, 5:00, 6:00 y 7:00 pm</dd>
+            <dt>Sábados</dt>
+            <dd>Mañana: 9:00, 10:00, 11:00 y 12:00<br>Tarde: 2:00, 3:00, 4:00 y 5:00 pm</dd>
+            <dt>Domingos (solo terapias a domicilio)</dt>
+            <dd>8:00, 9:00, 10:00, 11:00 am y 12:00 pm</dd>
+          </dl>
+          <div class="reglas">
+            Previa cita, desde el día siguiente. Para una cita el mismo día, consulta disponibilidad por WhatsApp. El
+            pago se realiza por adelantado y las reprogramaciones se piden con anticipación.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div><strong style="color:#fff">Fisiorol · Centro de Fisioterapia</strong><br>Magdalena del Mar, Lima,
+        Perú<br>Diana Roldán, Licenciada en Terapia Física y Rehabilitación</div>
+      <div>WhatsApp y Yape: <a href="tel:+51913515980">913 515 980</a><br>Tu bienestar, en buenas manos</div>
     </div>
-  </div>
-</section>
-</main>
+  </footer>
 
-<footer>
-  <div class="wrap">
-    <div><strong style="color:#fff">Fisiorol · Centro de Fisioterapia</strong><br>Magdalena del Mar, Lima, Perú<br>Diana Roldán, Licenciada en Terapia Física y Rehabilitación</div>
-    <div>WhatsApp y Yape: <a href="tel:+51913515980">913 515 980</a><br>Tu bienestar, en buenas manos</div>
-  </div>
-</footer>
+  <a class="btn wa-flot" data-wa="Hola Fisiorol, quiero más información." href="#">Escríbenos por WhatsApp</a>
 
-<a class="btn wa-flot" data-wa="Hola Fisiorol, quiero más información." href="#">Escríbenos por WhatsApp</a>
-
-<script src="js/app.js" defer></script>
+  <script src="js/app.js" defer></script>
 </body>
+
 </html>
