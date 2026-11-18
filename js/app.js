@@ -50,7 +50,7 @@ const SERVICIOS = [
 		n: "Colocación de tape",
 		p: "S/ 10",
 		m: "Rápido",
-		d: "Colocación de tape para dar soporte a la zona que lo necesite.",
+		d: "Colocación de tape para dar soporte o estabilidad, el precio es por zona y varía según la cantidad de tape que se requiera.",
 	},
 	{
 		n: "Terapia a domicilio",
@@ -188,3 +188,14 @@ document.getElementById("form-reserva").addEventListener("submit", (e) => {
 		window.location.href = url;
 	} // si el navegador bloquea la ventana, abre en la misma pestaña
 });
+
+// QR de Yape: si todavía no subiste assets/yape-qr.png, muestra un recuadro en su lugar
+const qr = document.querySelector(".yape-qr img");
+if (qr) {
+	const sinQR = () => {
+		qr.hidden = true;
+		qr.nextElementSibling.hidden = false;
+	};
+	qr.addEventListener("error", sinQR);
+	if (qr.complete && qr.naturalWidth === 0) sinQR();
+}

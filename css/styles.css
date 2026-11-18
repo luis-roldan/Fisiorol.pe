@@ -62,6 +62,13 @@ nav a.btn{color:#fff}
 .yape .num{font-family:Fraunces,serif;font-weight:800;font-size:clamp(1.8rem,5vw,2.4rem);color:var(--azul-osc);letter-spacing:.02em}
 .yape small{display:block;color:var(--gris)}
 
+.yape-datos{display:grid;gap:16px}
+.yape-btns{display:flex;flex-wrap:wrap;gap:10px}
+.yape-qr{margin:0;text-align:center;font-size:.9rem;color:var(--gris)}
+.yape-qr img,.qr-vacio{width:180px;height:180px;border:1px solid var(--linea);border-radius:12px;padding:8px;background:#fff;object-fit:contain;margin:0 auto 6px}
+.qr-vacio{display:grid;place-items:center;border:2px dashed var(--turquesa);color:var(--gris);padding:16px}
+[hidden]{display:none!important}
+
 /* reserva */
 .reserva{display:grid;gap:36px;grid-template-columns:1fr 1fr;align-items:start}
 @media(max-width:800px){.reserva{grid-template-columns:1fr}}
@@ -91,7 +98,9 @@ footer{padding-bottom:84px}
   header img{height:36px}
   .srv{grid-template-columns:1fr}
   .srv .precio{text-align:left;order:-1;font-size:1.3rem}
-  .yape{flex-direction:column;align-items:flex-start}
+  .yape{flex-direction:column;align-items:center;text-align:center}
+  .yape-btns{justify-content:center}
+  .wa-largo{display:none}
   .wa-flot{right:12px;bottom:12px;padding:.7em 1.1em;font-size:.9rem}
   form{padding:18px}
 }

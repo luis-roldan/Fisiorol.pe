@@ -23,7 +23,7 @@
 
   <header>
     <div class="wrap">
-      <a href="#inicio" aria-label="Fisiorol, inicio"><img src="assets/logo.png"
+      <a href="#inicio" aria-label="Fisiorol, inicio"><img src="assets/favicon.png"
           alt="Fisiorol, centro de fisioterapia"></a>
       <nav>
         <a href="#servicios">Servicios</a>
@@ -83,16 +83,23 @@
               cita.</span></li>
         </ol>
         <div class="yape">
-          <div>
-            <small>Yape del 50% para separar tu cita</small>
-            <span class="num" id="num-yape">913 515 980</span>
+          <div class="yape-datos">
+            <div>
+              <small>Yape del 50% para separar tu cita</small>
+              <span class="num" id="num-yape">913 515 980</span>
+            </div>
+            <div class="yape-btns">
+              <button class="btn sec" id="copiar" type="button">Copiar número</button>
+              <a class="btn"
+                data-wa="Hola Fisiorol, ya realicé el Yape del 50% para separar mi cita. Te envío la constancia."
+                href="#">Enviar constancia</a>
+            </div>
           </div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap">
-            <button class="btn sec" id="copiar" type="button">Copiar número</button>
-            <a class="btn"
-              data-wa="Hola Fisiorol, ya realicé el Yape del 50% para separar mi cita. Te envío la constancia."
-              href="#">Enviar constancia</a>
-          </div>
+          <figure class="yape-qr">
+            <img src="assets/yape-qr.jpeg" alt="Código QR de Yape de Fisiorol" width="180" height="180">
+            <div class="qr-vacio" hidden>Aquí irá el QR de Yape</div>
+            <figcaption>Escanea con tu app de Yape</figcaption>
+          </figure>
         </div>
       </div>
     </section>
