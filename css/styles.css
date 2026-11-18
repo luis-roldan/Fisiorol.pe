@@ -98,7 +98,7 @@ footer{padding-bottom:84px}
   header img{height:36px}
   .srv{grid-template-columns:1fr}
   .srv .precio{text-align:left;order:-1;font-size:1.3rem}
-  .yape{flex-direction:column;align-items:flex-start}
+  .yape{flex-direction:column;align-items:center;text-align:center}
   .yape-qr{align-self:center}
   .wa-largo{display:none}
   .wa-flot{right:12px;bottom:12px;padding:.7em 1.1em;font-size:.9rem}
