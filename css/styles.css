@@ -92,14 +92,21 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between}
 .hoy p{margin:.2em 0 .8em;color:var(--gris);font-size:.95rem}
 .hoy-btns{display:flex;flex-wrap:wrap;gap:10px}
 footer{padding-bottom:84px}
+@media(max-width:760px){
+  .yape{flex-direction:column;align-items:center;text-align:center}
+  .yape,.yape-datos,.yape-btns{width:100%}
+  .yape-btns{justify-content:center}
+}
 @media(max-width:560px){
   body{font-size:16px}
   section{padding:44px 0}
   header img{height:36px}
   .srv{grid-template-columns:1fr}
   .srv .precio{text-align:left;order:-1;font-size:1.3rem}
-  .yape{flex-direction:column;align-items:center;text-align:center}
-  .yape-qr{align-self:center}
+  /* .yape{flex-direction:column;align-items:center;text-align:center}
+  .yape,.yape-datos,.yape-btns{width:100%} */
+  .yape-btns{flex-direction:column}
+  .yape-btns .btn{width:100%;justify-content:center}
   .wa-largo{display:none}
   .wa-flot{right:12px;bottom:12px;padding:.7em 1.1em;font-size:.9rem}
   form{padding:18px}
