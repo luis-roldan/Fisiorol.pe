@@ -30,7 +30,7 @@ nav a.btn{color:#fff}
 @media(max-width:720px){nav a:not(.btn){display:none}}
 
 /* hero */
-.hero{background:linear-gradient(180deg,var(--hielo),#fff);padding:56px 0 48px}
+.hero{background:transparent;padding:56px 0 48px}
 .hero .wrap{display:grid;gap:32px;grid-template-columns:1.1fr .9fr;align-items:center}
 .hero p.lead{font-size:1.2rem;color:var(--gris);max-width:34em}
 .hero .acciones{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}

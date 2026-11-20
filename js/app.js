@@ -26,7 +26,7 @@ const SERVICIOS = [
 		n: "Descarga muscular",
 		p: "S/ 80",
 		m: "Sesión",
-		d: "Terapia manual y con aparatología (ultrasonido, TENS, magnetoterapia, terapia combinada) para aliviar tensión y favorecer la recuperación.",
+		d: "terapia manual + pistola de percusión + estiramientos al finalizar, para aliviar la tensión y favorecer la recuperación.",
 	},
 	{
 		n: "Tratamiento especializado",
